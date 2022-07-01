@@ -20,9 +20,14 @@ body {
     color: white;
     font-family: 'Press Start 2P', cursive;;
     text-align: center;
-}
+ }
+ /*
 #home {
     display:none;
+} */
+
+#gameOver {
+    display: none;
 }
 
 .question {
@@ -31,8 +36,6 @@ body {
 .row {
     display: flex;
     justify-content: space-around;
-    
-    
 }
 /* Styles the p tag on my homepage */
 #home .row p {
@@ -57,5 +60,10 @@ body {
 }
 #ans4{
     background-color: var(--a4);
+    color: white;
+}
+
+#restart {
+    background-color: var(--a1);
     color: white;
 }
