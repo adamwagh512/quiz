@@ -1,7 +1,7 @@
 # quiz
 This is the 4th project for the UT Austin Coding Bootcamp
 
-
+ Dominick from the Helpdesk helped me out big time! (forgot to link the JS)
 MIT License
 
 Copyright (c) 2022 adamwagh512

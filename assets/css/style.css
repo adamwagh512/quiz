@@ -21,8 +21,12 @@ body {
     font-family: 'Press Start 2P', cursive;;
     text-align: center;
 }
+#home {
+    display:none;
+}
+
 .question {
-    display: none;
+    display: none; 
 }
 .row {
     display: flex;
