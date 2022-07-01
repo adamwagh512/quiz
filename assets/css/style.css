@@ -1,0 +1,57 @@
+:root {
+    --bg: #0d0d0d;
+    --a1: #79c4f2;
+    --a2: #3f8ebf; 
+    --a3:#0d4c73; 
+    --a4: #012840;  
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+    font: 25px;
+    
+}
+
+body {
+    background-color: var(--bg);
+    color: white;
+    font-family: 'Press Start 2P', cursive;;
+    text-align: center;
+}
+.question {
+    display: none;
+}
+.row {
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+/* Styles the p tag on my homepage */
+#home .row p {
+    color: var(--a3)
+}
+/* Styles the buttons on my homepage */
+#home .btn {
+    background-color: var(--a2);
+}
+
+#ans1 {
+    background-color: var(--a1);
+    color: white;
+}
+#ans2 {
+    background-color: var(--a2);
+    color: white
+}
+#ans3 {
+    background-color: var(--a3);
+    color: white;
+}
+#ans4{
+    background-color: var(--a4);
+    color: white;
+}
